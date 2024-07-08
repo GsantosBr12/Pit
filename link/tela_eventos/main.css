@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Alfa+Slab+One&family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background-color: #030822;
+}
+
+header {
+    background-color: #18183D;
+    color: #fff;
+    padding: 20px;
+}
+
+nav {
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+.conteudo {
+    background-color: #212161;
+    position: absolute;
+    width:calc(50% - 40px) ;
+    left: 30em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1px;
+    height:auto;
+    
+}
+.card {
+    max-width: 30em;
+    background-color: #332d69;
+    border: 0;
+    box-shadow: 0 7px 7px rgba(0, 0, 0, 0.18);
+    margin: 3em auto;
+    border-radius: 0.7em;
+  }
+  .card.dark {
+    color: #fff;
+  }
+  .card.card.bg-light-subtle .card-title {
+    color: dimgrey;
+  }
+  
+  .card img {
+    max-width: 25%;
+    margin: auto;
+    padding: 0.5em;
+    border-radius: 0.7em;
+  }
+  .card-body {
+    display: flex;
+    padding: 0.3em 0.5em;
+  }
+  .text-section {
+    max-width: 60%;
+    color: #fff;
+  }
+  .cta-section {
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  
+  }
+  .cta-section .btn {
+    position: relative;
+    top: 70px;
+    left: 55px;
+   text-decoration: none;
+    background-color: #212161;
+    color: #fff;
+    padding: 0.5em 0.5em;
+    border-radius: 0.2em;
+    /* color: #696969; */
+  }
+  .card.bg-light-subtle .cta-section .btn {
+    background-color: #898989;
+    border-color: #898989;
+  }
