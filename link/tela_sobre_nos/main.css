@@ -1,0 +1,99 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #030822;
+  overflow: hidden;
+}
+#about-us{
+background: #18183D;
+width: 50%;
+border-radius: 5px;
+left: 400px;
+position: relative;
+}
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-content h2 {
+  font-size: 30px;
+  line-height: 45px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.about-content p {
+  font-weight: 300;
+  color: #fff;
+  font-size: 18px;
+}
+
+.about-content {
+  padding-right: 60px;
+}
+
+
+@media (max-width:576px) {
+  .about-content {
+    padding-right: 0;
+  }
+
+  .about-content h2 {
+    font-size: 26px;
+  }
+
+  .about-content p {
+    font-size: 16px;
+  }
+}
+
+header {
+  background-color: #18183D;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+nav {
+  font-family: "Alata", sans-serif;
+  font-weight: 400;
+  font-style: bold;
+
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: bold;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.hmb {
+  pointer-events: none;
+  position: absolute;
+  left: 1100px;
+  top: 10px;
+  rotate: 14.13deg;
+  width: 50%;
+}
