@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-    <title>Login</title>
+    <title>Recuperação de conta</title>
 </head>
 
 <body scroll="no" style="overflow: hidden">
@@ -25,37 +25,35 @@
     <div class="container" id="container">
         <div class="form-container sign-up-container">
             <form action="#">
-                <h1>Abra sua conta</h1>
+                <h1>Não lembra seu login</h1>
+                <h2>Coloque seu email atual da conta</h2>
 
 
-                <input type="text" placeholder="Nome" />
-                <input type="email" placeholder="Email" />
-                <input type="password" placeholder="Senha" />
-                <button class="btn-forms">Abrir conta</button>
+                <input type="text" placeholder="Email" />
+                <button class="btn-forms">recuperar login</button>
+                <a href="/link/Tela_cadastro/index.html">Lembrou,deseja logar?</a>
             </form>
         </div>
         <div class="form-container sign-in-container">
             <form action="#">
-                <h1>Login</h1>
+                <h1>Recuperação de Senha</h1>
+                <h2>Coloque seu email atual da conta</h2>
 
 
-                <input type="email" placeholder="Nome de usuario" />
-                <input type="password" placeholder="Senha" />
-                <a href="/link/tela_eqcsenha/index.html">Esqueceu sua senha?</a>
-                <button class="btn-forms">logar</button>
+                <input type="email" placeholder="Email" />
+                <button class="btn-forms">Enviar Código</button>
+                <a href="/link/Tela_cadastro/index.html">Lembrou,deseja logar?</a>
             </form>
         </div>
         <div class="overlay-container">
             <div class="overlay">
                 <div class="overlay-panel overlay-left">
-                    <h1>Bem-vindo de volta!</h1>
-                    <p>Para se manter conectado conosco, faça login com suas informações pessoais</p>
-                    <button class="ghost" id="signIn">Logar</button>
+                    <h1>Deseja recuperar sua senha</h1>
+                    <button class="ghost" id="signIn">Esqueci minha senha</button>
                 </div>
                 <div class="overlay-panel overlay-right">
-                    <h1>Olá, amigo!</h1>
-                    <p>Insira seus dados pessoais e comece sua jornada conosco!!!</p>
-                    <button class="ghost" id="signUp">Cadastrar</button>
+                    <h1>Esqueceu o seu login</h1>
+                    <button class="ghost" id="signUp">Esqueci meu login</button>
                 </div>
             </div>
         </div>

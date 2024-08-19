@@ -1,24 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alata&family=Alfa+Slab+One&family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 body {
 
     margin: 0;
     padding: 0;
-    background-color: #030822;
+    background-color: #1C1C1C;
 }
 
 header {
-    background-color: #18183D;
+    background-color: #0E0F1B;
     color: #fff;
     padding: 20px;
 }
 
 nav {
-    font-family: "Alata", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
-    font-style: bold;
+    font-style: normal;
+    font-size: 20.5px;
 }
 
 nav ul {
@@ -26,8 +28,6 @@ nav ul {
     margin: 0;
     padding: 0;
     gap: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: bold;
 }
 
 nav li {
@@ -45,7 +45,7 @@ nav a {
     justify-content: center;
 }
 .conteudo {
-    background-color: #212161;
+    background-color: #3E3E3E;
     position: absolute;
     width:calc(50% - 40px) ;
     left: 30em;
@@ -60,7 +60,7 @@ nav a {
 }
 .card {
     max-width: 30em;
-    background-color: #332d69;
+    background-color: #252424;
     border: 0;
     box-shadow: 0 7px 7px rgba(0, 0, 0, 0.18);
     margin: 3em auto;
@@ -99,8 +99,8 @@ nav a {
     top: 70px;
     left: 55px;
    text-decoration: none;
-    background-color: #212161;
-    color: #fff;
+    background-color: #8DBED9;
+    color: #0E0F1B;
     padding: 0.5em 0.5em;
     border-radius: 0.2em;
     /* color: #696969; */
@@ -109,3 +109,4 @@ nav a {
     background-color: #898989;
     border-color: #898989;
   }
+
