@@ -127,9 +127,9 @@ nav a {
     pointer-events: none;
     position: relative;
     left: 840px;
-    top: 50px;
+    bottom: 100px;
     rotate: 14.13deg;
-    width: 50%;
+    width: 60%;
 }
 .abt{
     width: 75%;
