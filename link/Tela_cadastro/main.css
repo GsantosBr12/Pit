@@ -12,8 +12,7 @@ body {
     align-items: center;
     flex-direction: column;
     font-family: "Bebas Neue", sans-serif;
-    height: 90vh;
-    margin: -20px 0 50px;
+
 }
 
 
@@ -244,7 +243,7 @@ input {
 
 .linha{
     position: absolute;
-    top: 140px;
+    top: 170px;
 }
 .logo{
     position: relative;
@@ -264,9 +263,9 @@ header {
 
 nav{
     font-family: "Bebas Neue", sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
-    font-size: 40px;
+    
 }
 
 nav ul {
@@ -274,17 +273,20 @@ nav ul {
     margin: 0;
     padding: 0;
     gap: 50px;
+    font-size: 25px;
    
 }
 
 nav li {
     display: inline-block;
     margin-right: 20px;
+    
 }
 
 nav a {
     color: #fff;
     text-decoration: none;
+    font-size: 25px;
 }
 nav a::hover{
     box-shadow: 2px 1px 1px #fff;
